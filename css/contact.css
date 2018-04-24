@@ -1,0 +1,32 @@
+form{
+    /* width:60%; */
+  clear: both;
+}
+input{
+    width: 100%;
+  clear: both;
+  height: 30px;
+}
+#submit{
+    width: 50px;
+}
+.box{
+    height: 200px;
+    width: 200px;
+    display: inline;
+    clear: both;
+    margin: 0px;
+}
+#box1, #box3{
+  background-color: blueviolet;
+  float: left;
+}
+#box2, #box4{
+    background-color: coral;
+    float: right;
+  }
+  .box:after {
+    content: "";
+    display: table;
+    clear: both;
+}

@@ -1,0 +1,13 @@
+.img-container {
+    float: left;
+    width: 50%;
+    margin-bottom: 35px;
+}
+.clearfix{
+    width: 100%;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}

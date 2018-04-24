@@ -1,0 +1,21 @@
+li {
+    display: inline;
+    clear: both;
+}
+a{
+    float: right;
+    padding: 20px;
+}
+#name{
+    display: inline;
+    float: left;
+    padding: 20px;
+    padding-left: 21.5%;
+    font-size: x-large;
+    font-weight: bold;
+}
+#navbar{
+    background-color: #ccc;
+    height: 60px;
+    padding-right: 15%;
+}
